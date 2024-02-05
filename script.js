@@ -1,0 +1,1 @@
+/* Here We are. This is our external file of javacript that we linked with script element having scr attribute. */

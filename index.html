@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>lecture:0 | Familiar with the structure</title>
+
+    <link rel="stylesheet" href="style.css">
+    <style></style>
+   
+</head>
+<body>
+    <!-- 
+        First section - HTML: 
+        We gonna learn about Elements and tags using h$*6, p, a, br, hr tags
+        Here h$*6, p and a is paired tags and br and hr are self-closing tags
+     -->
+     
+    <h1>This is Heading 1</h1>
+    <h2>This is Heading 2</h2>
+    <h3>This is Heading 3</h3>
+    <h4>This is Heading 4</h4>
+    <h5>This is Heading 5</h5>
+    <h6>This is Heading 6</h6>
+    <hr>
+    <p>This a para</p>
+    <br>
+    <a href="#">This is ancor tag</a>
+
+    <!-- 
+        Did you find something different in these elements:
+        Some of them have openning as well as closing tag while other don't.
+
+        *Elements that have openning and closing tags are called paired element.*
+        E.g.: h$*6, p and a elements
+         
+        *Elements that don't have closing tag are self-closing or empty elements.*
+        E.g.: br, hr elements
+
+        I use two words there TAGS and ELEMENTS
+
+        Tags are individual components, openning and closing tag.
+        E.g.: <p> is *para openning tag* and </p> is *para closing tag*. 
+        To create a closing tag, you simply add a '/' after '<' in the opening tag.
+
+        And the combination of openning and closing tag are known as Elements.
+        E.g.: <p>...</p> is a *paragraph element*
+
+        Point to keep in mind: browser elemenate the extra whitespaces.
+
+        Within the <a> tag, we use an *attribute* called 'href'. 
+            **Attributes provide additional information to tags and are included in the opening tag.
+    -->
+
+    <!-- 
+        Lets move to our next section - CSS:
+        We can add Css in 3 ways:
+        Inline, Internal, External CSS.
+        -> Starts with External CSS:To link an external CSS file with a .css extension, we use the <link> tag inside the <head> element.
+        e.g.:  <link rel="stylesheet" href="style.css">
+            /create a style.css file and start work in it./
+            selector{
+                property: value;
+            }
+
+             The <link> tag is used to connect external files to the HTML document.
+            Here rel and href are the attributes of link tag.
+            In this context, 
+            **'rel' stands for 'relationship,' and it specifies that the relationship is a 'stylesheet,' which is used for presentation or formatting. 
+            **'Href' stands for 'hyper reference' and points to the location of the external CSS file
+
+        -> An alternative method for adding CSS is Internal CSS. This involves using a <style> element within the <head> section of the HTML document.
+        e.g.:   <style>
+                    selector{
+                        property: value;
+                    }
+                </style>
+
+        -> And Last method is to add style attribute to the element's openning tag.
+        E.g.: <p style="property: value">....</p>
+    -->
+
+    <!-- 
+        Let's move to very last section - JAVASCRIPT:
+        We can add javascript in 2 ways: 
+        Internal and external javascript.
+
+        For adding internal javascript we simplly use script element before </body> tag and can work in it
+        e.g.:   <script>
+                    ....
+                </script>
+
+        For adding external javascript we need to use script tag along with src attribute having link of the file before </body> tag and can work in the .js extention file.
+        e.g.: <script src="script.js"></script>
+    -->
+
+    <script></script>
+    <script src="script.js"></script>
+</body>
+</html>
